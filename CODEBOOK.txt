@@ -1,0 +1,72 @@
+CODE BOOK
+=========
+
+
+Subject										The participant
+Activity									Activity 
+AveTimeBodyAccelerometerMean.X				The average of the mean of time body - x measured by accelerator per subject per activity
+AveTimeBodyAccelerometerMean.Y				The average of the mean of time body - y measured by accelerator per subject per activity
+AveTimeBodyAccelerometerMean.Z				The average of the mean of time body - z measured by accelerator per subject per activity
+AveTimeBodyAccelerometerSD.X				The average of the standard deviation of time body - x measured by accelerator per subject per activity
+AveTimeBodyAccelerometerSD.Y	  			The average of the standard deviation of time body - y measured by accelerator per subject per activity
+AveTimeBodyAccelerometerSD.Z	  			The average of the standard deviation of time body - z measured by accelerator per subject per activity
+AveTimeGravityAccelerometerMean.X			The average of the mean of time gravity - x measured by accelerator per subject per activity
+AveTimeGravityAccelerometerMean.Y	  		The average of the mean of time gravity - y measured by accelerator per subject per activity
+AveTimeGravityAccelerometerMean.Z	  		The average of the mean of time gravity - z measured by accelerator per subject per activity
+AveTimeGravityAccelerometerSD.X	  			The average of the standard deviation of time gravity - x measured by accelerator per subject per activity
+AveTimeGravityAccelerometerSD.Y	  			The average of the standard deviation of time gravity - y measured by accelerator per subject per activity
+AveTimeGravityAccelerometerSD.Z	  			The average of the standard deviation of time gravity - z measured by accelerator per subject per activity
+AveTimeBodyAccelerometerJerkMean.X			The average of the mean of time body Jerk - x measured by accelerator per subject per activity
+AveTimeBodyAccelerometerJerkMean.Y	  		The average of the mean of time body Jerk - y measured by accelerator per subject per activity
+AveTimeBodyAccelerometerJerkMean.Z	  		The average of the mean of time body Jerk - z measured by accelerator per subject per activity
+AveTimeBodyAccelerometerJerkSD.X	  		The average of the standard deviation of time body Jerk - x measured by accelerator per subject per activity
+AveTimeBodyAccelerometerJerkSD.Y	 		The average of the standard deviation of time body Jerk - y measured by accelerator per subject per activity
+AveTimeBodyAccelerometerJerkSD.Z	  		The average of the standard deviation of time body Jerk - z measured by accelerator per subject per activity
+AveTimeBodyGyroscopeMean.X					The average of the mean of time body - x measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeMean.Y	  				The average of the mean of time body - y measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeMean.Z	  				The average of the mean of time body - z measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeSD.X	  				The average of the standard deviation of time body - x measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeSD.Y	  				The average of the standard deviation of time body - y measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeSD.Z	  				The average of the standard deviation of time body - z measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeJerkMean.X				The average of the mean of time body Jerk - x measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeJerkMean.Y	  			The average of the mean of time body Jerk - y measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeJerkMean.Z	  			The average of the mean of time body Jerk - z measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeJerkSD.X	  			The average of the standard deviation of time body Jerk - x measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeJerkSD.Y	  			The average of the standard deviation of time body Jerk - y measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeJerkSD.Z	  			The average of the standard deviation of time body Jerk - z measured by gyroscope per subject per activity
+AveTimeBodyAccelerometerMagnitudeMean		The average of the mean of the magnitude of time body measured by accelerometer per subject per activity
+AveTimeBodyAccelerometerMagnitudeSD			The average of the standard deviation of the magnitude of time body measured by accelerometer per subject per activity
+AveTimeGravityAccelerometerMagnitudeMean	The average of the mean of the magnitude of time gravity measured by accelerometer	 per subject per activity
+AveTimeGravityAccelerometerMagnitudeSD		The average of the standard deviation of the magnitude of time gravity measured by accelerometer per subject per activity
+AveTimeBodyAccelerometerJerkMagnitudeMean	The average of the mean of the magnitude of time body Jerk measured by accelerometer per subject per activity
+AveTimeBodyAccelerometerJerkMagnitudeSD		The average of the standard deviation of the magnitude of time body Jerk measured by accelerometer per subject per activity
+AveTimeBodyGyroscopeMagnitudeMean			The average of the mean of the magnitude of time body measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeMagnitudeSD	  			The average of the standard deviation of the magnitude of time body measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeJerkMagnitudeMean	 	The average of the mean of the magnitude of time body Jerk measured by gyroscope per subject per activity
+AveTimeBodyGyroscopeJerkMagnitudeSD	  		The average of the standard deviation of the magnitude of time body Jerk measured by gyroscope per subject per activity
+AveFreqBodyAccelerometerMean.X	  			The average of the mean of frequency body - x measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerMean.Y	  			The average of the mean of frequency body - y measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerMean.Z				The average of the mean of frequency body - z measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerSD.X				The average of the standard deviation of frequency body - x measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerSD.Y				The average of the standard deviation of frequency body - y measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerSD.Z				The average of the standard deviation of frequency body - z measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerJerkMean.X			The average of the mean of frequency body Jerk - x measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerJerkMean.Y	  		The average of the mean of frequency body Jerk- y measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerJerkMean.Z	  		The average of the mean of frequency body Jerk- z measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerJerkSD.X			The average of the standard deviation of frequency body Jerk - x measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerJerkSD.Y	  		The average of the standard deviation of frequency body Jerk- y measured by accelerometer per subject per activity
+AveFreqBodyAccelerometerJerkSD.Z	  		The average of the standard deviation of frequency body Jerk- z measured by accelerometer per subject per activity
+AveFreqBodyGyroscopeMean.X					The average of the mean of frequency body - x measured by gyroscope per subject per activity
+AveFreqBodyGyroscopeMean.Y	  				The average of the mean of frequency body - y measured by gyroscope per subject per activity
+AveFreqBodyGyroscopeMean.Z	  				The average of the mean of frequency body - z measured by gyroscope per subject per activity
+AveFreqBodyGyroscopeSD.X	  				The average of the standard deviation of frequency body - x measured by gyroscope per subject per activity
+AveFreqBodyGyroscopeSD.Y	  				The average of the standard deviation of frequency body - y measured by gyroscope per subject per activity
+AveFreqBodyGyroscopeSD.Z	  				The average of the standard deviation of frequency body - z measured by gyroscope per subject per activity
+AveFreqBodyAccelerometerMagnitudeMean		The average of the mean of the magnitude of frequency body measured by acceleromenter per subject per activity
+AveFreqBodyAccelerometerMagnitudeSD			The average of the standard deviation of the magnitude of frequency body measured by acceleromenter per subject per activity
+AveFreqBodyAccelerometerJerkMagnitudeMean	The average of the mean of the magnitude of frequency body Jerk measured by acceleromenter per subject per activity
+AveFreqBodyAccelerometerJerkMagnitudeSD		The average of the standard deviation of the magnitude of frequency body Jerk measured by acceleromenter per subject per activity
+AveFreqBodyGyroscopeMagnitudeMean			The average of the mean of the magnitude of frequency body measured by gyroscope per subject per activity
+AveFreqBodyGyroscopeMagnitudeSD	  			The average of the standard deviation of the magnitude of frequency body measured by gyroscope per subject per activity
+AveFreqBodyGyroscopeJerkMagnitudeMean		The average of the mean of the magnitude of frequency body Jerk measured by gyroscope per subject per activity
+AveFreqBodyGyroscopeJerkMagnitudeSD  		The average of the standard deviation of the magnitude of frequency body Jerk measured by gyroscope	 per subject per activity

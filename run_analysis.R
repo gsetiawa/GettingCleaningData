@@ -36,8 +36,36 @@ analyze <- function(parentdir = "UCI HAR Dataset") {
     labelList <- c("Subject", "Activity", descFeatures)
     colnames(combinedSet) <- labelList
     
-    # return the combined Set
-    combinedSet
+    # Grouping the data by Subject-Activity and calculate the mean of each
+    # observation
+    groups <- split(combinedSet, list(combinedSet$Subject, combinedSet$Activity))
+    
+    averageResultSet <- sapply(groups, function(x) sapply(x[, 3:68], mean))
+    averageResultSet <- data.frame(t(averageResultSet))
+    
+    # rename - append Ave on variable names
+    names(averageResultSet) <- paste("Ave", names(averageResultSet), sep="")
+    
+    # split rename the row names as columns 
+    library("plyr")
+    groupSplit <- strsplit(rownames(averageResultSet), '.', fixed=TRUE)
+    groupColumns <- ldply(groupSplit)
+    names(groupColumns) <- c("Subject", "Activity")
+    
+    averageResultSet <- cbind(groupColumns, averageResultSet)
+    rownames(averageResultSet) <- NULL
+    
+    # write to file
+    if (!file.exists("./AverageTidyCombinedSet.txt")) {
+        file.create("./AverageTidyCombinedSet.txt")
+    }
+    write.table(averageResultSet, file = "./AverageTidyCombinedSet.txt", 
+                row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE )
+    
+    print("The tidy combined data set is saved in AverageTidyCombinedSet.txt")
+    
+    # return tidy average data set
+    averageResultSet
 }
 
 
